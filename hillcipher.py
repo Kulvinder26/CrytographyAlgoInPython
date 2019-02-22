@@ -12,7 +12,7 @@ table = [['*', '*', '*'],            #Empty table for storing encryption matrix 
 
 list = ['*', '*', '*']
 
-def hill_encrypt(key, plaintext): #Encryption Funcitom
+def hill_encrypt(key, plaintext): #Encryption Funciton
 
     i = 0
 
