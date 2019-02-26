@@ -1,7 +1,5 @@
 import math
 
-a  = 63
-b  = 42
 #Extended-Euclid's algorithm
 
 def EE(x,y):
@@ -12,4 +10,13 @@ def EE(x,y):
 
         return (d,b,a-(math.floor(x/y)*b))
 
-print(EE(a,b))
+
+
+
+
+if __name__ == "__main__":
+    a = int(input("Enter first number :"))
+    b = int(input("Enter second number (mod by no.):"))
+    #print(a,b)
+    _,c,d = EE(a,b)
+    print("Multiplicative Inverse of " + str(a) + " : ",c)
