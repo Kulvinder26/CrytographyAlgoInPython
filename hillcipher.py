@@ -26,10 +26,7 @@ def hill_encrypt(key, plaintext): #Encryption Funciton
     for i in range(0,len(plaintext),3):
         list = plaintext[i:i+3]
         list2 = [ord(j)-65 for j in list ]
-        #print(list2)
-        #for i in range(3):
-        #ord(key[i])-65
-        #print(,i)
+
         a = np.array(table)
         b = np.array(list2)
         mat = np.matmul(a, b)
