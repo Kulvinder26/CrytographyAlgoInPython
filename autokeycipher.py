@@ -1,4 +1,4 @@
-#Vigenere Cipher is a method of encrypting alphabetic text.
+#Autokey Cipher is a method of encrypting alphabetic text.
 #It uses a simple form of polyalphabetic substitution.
 # It was invented by Blaise de Vigenère in 1586, and is in general more secure than the Vigenere cipher.
 #The 'key' for the Autokey cipher is a key word created by concatenating key with plaintext.
