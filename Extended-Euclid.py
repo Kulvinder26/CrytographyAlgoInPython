@@ -1,3 +1,11 @@
+
+#In arithmetic and computer programming,
+#the extended Euclidean algorithm is an extension to the Euclidean algorithm,
+#and computes, in addition to the greatest common divisor of integers a and b,
+#also the coefficients of Bézout's identity, which are integers x and y such that,
+#      ax + by = gcd(a,b)
+
+
 import math
 
 #Extended-Euclid's algorithm
@@ -19,4 +27,5 @@ if __name__ == "__main__":
     b = int(input("Enter second number (mod by no.):"))
     #print(a,b)
     _,c,d = EE(a,b)
-    print("Multiplicative Inverse of " + str(a) + " : ",c)
+    print()
+    print(str(a)+"*"+str(c)+ " + "  + str(b) +"*"+str(d) +" = " +"gcd(" + str(_)+ ")")        #ax + by = gcd(a,b)
