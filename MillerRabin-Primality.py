@@ -7,7 +7,7 @@
 # Michael O. Rabin modified it to obtain an unconditional probabilistic algorithm.
 
 
-# IsPrime returns false if n is composite and returns true if n
+# IsPrime returns "composite" if n is composite and returns "probably prime" if n
 # is probably prime.  k is an input parameter that determines
 # accuracy level. Higher value of k indicates more accuracy.
 
