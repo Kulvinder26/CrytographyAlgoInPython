@@ -39,7 +39,8 @@ def isPrime(n,k):
         faith = 0
         for i in arr:
             faith = faith + i
-        if faith/k >= k/2:             # Voting and averaging to find what most of tests agree on i.e. prime or composite
+        print(faith)
+        if faith/k >= 0.5:             # Voting and averaging to find what most of tests agree on i.e. prime or composite
             return "probably prime"
         else: return "composite"
 
